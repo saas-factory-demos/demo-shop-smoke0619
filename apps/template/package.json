@@ -23,7 +23,6 @@
     "@saas-factory/cms-blog": "workspace:*",
     "@saas-factory/cms-blog-marketing": "workspace:*",
     "@saas-factory/cms-comments": "workspace:*",
-    "@saas-factory/cms-faq": "workspace:*",
     "@saas-factory/cms-forms": "workspace:*",
     "@saas-factory/cms-pages": "workspace:*",
     "@saas-factory/cms-seo": "workspace:*",

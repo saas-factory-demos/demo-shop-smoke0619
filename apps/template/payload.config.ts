@@ -21,8 +21,6 @@ import {
   NewsletterSubscribersCollection,
 } from '@saas-factory/cms-blog-marketing';
 import { CommentsCollection } from '@saas-factory/cms-comments';
-/* @factory:prune-if-disabled cms.faq */
-import { FaqCategoriesCollection, FaqItemsCollection } from '@saas-factory/cms-faq';
 import { FormsCollection, FormSubmissionsCollection } from '@saas-factory/cms-forms';
 import { buildPagesCollection } from '@saas-factory/cms-pages';
 import { BrokenLinksCollection } from '@saas-factory/cms-seo';
@@ -311,10 +309,6 @@ export default buildConfig({
      */
     FormsCollection,
     FormSubmissionsCollection,
-    /* @factory:prune-if-disabled cms.faq */
-    FaqCategoriesCollection,
-    /* @factory:prune-if-disabled cms.faq */
-    FaqItemsCollection,
     CommentsCollection,
     CtaBlocksCollection,
     LeadMagnetsCollection,
